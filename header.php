@@ -45,26 +45,23 @@ session_start();
 		<![endif]-->
     <style>
         #navigation {
-            background: #FF4E50;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #fff;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #fff, #fff);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #fff, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
         }
         #header {
-
-            background: #780206;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: whitesmoke;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #B6BCC2, whitesmoke);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #B6BCC2, whitesmoke); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
         }
         #top-header {
-
-
-            background: #870000;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #6c757d;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #6c757d, #B6BCC2);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #6c757d, #B6BCC2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
         }
@@ -123,7 +120,6 @@ session_start();
 				<div class="container">
 
 					<ul class="header-links pull-right">
-						<li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
 						<li><?php
                              include "db.php";
                             if(isset($_SESSION["uid"])){
@@ -173,9 +169,9 @@ session_start();
 						<!-- LOGO -->
 						<div class="col-md-3">
 							<div class="header-logo">
-								<a href="#" class="logo">
+								<a href="index.php" class="logo">
 								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
-                                        Online Shop
+                                        Jewelry Shop
                                     </font>
 									
 								</a>
@@ -189,8 +185,10 @@ session_start();
 								<form>
 									<select class="input-select">
 										<option value="0">All Categories</option>
-										<option value="1">Men</option>
-										<option value="1">Women </option>
+										<option value="1">Earrings</option>
+										<option value="1">Bracelet </option>
+										<option value="1">Necklace </option>
+										<option value="1">Ring </option>
 									</select>
 									<input class="input" id="search" type="text" placeholder="Search here">
 									<button type="submit" id="search_btn" class="search-btn">Search</button>
