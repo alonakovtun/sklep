@@ -51,17 +51,18 @@ session_start();
 
 
         }
-        #header {
+        #top-header {
             background: whitesmoke;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #B6BCC2, whitesmoke);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #B6BCC2, whitesmoke); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
         }
-        #top-header {
+        #header {
             background: #6c757d;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #6c757d, #B6BCC2);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #6c757d, #B6BCC2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: -webkit-linear-gradient(to right, #62ade3, #9292f0);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #62ade3, #9292f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 
         }

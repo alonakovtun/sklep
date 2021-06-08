@@ -138,7 +138,7 @@ include "header.php";
 								<a class="review-link" href="#review-form">10 Review(s) | Add your review</a>
 							</div>
 							<div>
-								<h3 class="product-price">$'.$row['product_price'].'<del class="product-old-price">$990.00</del></h3>
+								<h3 class="product-price">$'.$row['product_price'].'</h3>
 								<span class="product-available">In Stock</span>
 							</div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -159,26 +159,13 @@ include "header.php";
 							</div>
 
 							<div class="add-to-cart">
-								<div class="qty-label">
-									Qty
-									<div class="input-number">
-										
-										<span class="qty-up">+</span>
-										<span class="qty-down">-</span>
-									</div>
-								</div>
+								
 								<div class="btn-group" style="margin-left: 25px; margin-top: 15px">
 								<button class="add-to-cart-btn" pid="'.$row['product_id'].'"  id="product" ><i class="fa fa-shopping-cart"></i> add to cart</button>
                                 </div>
 								
 								
 							</div>
-
-							<ul class="product-btns">
-								<li><a href="#"><i class="fa fa-heart-o"></i> add to wishlist</a></li>
-								<li><a href="#"><i class="fa fa-exchange"></i> add to compare</a></li>
-							</ul>
-
 							<ul class="product-links">
 								<li>Category:</li>
 								<li><a href="#">Headphones</a></li>
@@ -474,7 +461,6 @@ include "header.php";
 									<div class='product-img'>
 										<img src='product_images/$pro_image' style='max-height: 170px;' alt=''>
 										<div class='product-label'>
-											<span class='sale'>-30%</span>
 											<span class='new'>NEW</span>
 										</div>
 									</div></a>
