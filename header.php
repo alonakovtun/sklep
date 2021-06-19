@@ -53,23 +53,23 @@ session_start();
         }
         #top-header {
             background: whitesmoke;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: -webkit-linear-gradient(to right, #e9ebf0, #c5ccde);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #e9ebf0, #c5ccde); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
         }
         #header {
             background: #6c757d;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #62ade3, #9292f0);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #62ade3, #9292f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: -webkit-linear-gradient(to right, #c5ccde, #a0a6b8);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #c5ccde, #a0a6b8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
 
         }
         #footer {
             background: #7474BF;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			background: -webkit-linear-gradient(to right, #c5ccde, #a0a6b8);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #c5ccde, #a0a6b8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
           color: #1E1F29;
@@ -130,7 +130,7 @@ session_start();
                                 
                                 echo '
                                <div class="dropdownn">
-                                  <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> HI '.$row["first_name"].'</a>
+                                  <a href="#" class="dropdownn" data-toggle="modal" data-target="#myModal" ><i class="fa fa-user-o"></i> HI, '.$row["first_name"].'</a>
                                   <div class="dropdownn-content">
                                     <a href="" data-toggle="modal" data-target="#profile"><i class="fa fa-user-circle" aria-hidden="true" ></i>My Profile</a>
                                     <a href="logout.php"  ><i class="fa fa-sign-in" aria-hidden="true"></i>Log out</a>
