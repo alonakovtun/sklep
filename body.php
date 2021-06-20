@@ -23,10 +23,6 @@
         <img src="./img/banner3.jpg" alt="Banner" style="width:100%;">
         
       </div>
-      <div class="item">
-        <img src="./img/banner4.jpg" alt="Banner" style="width:100%;">
-        
-      </div>
   
     </div>
 

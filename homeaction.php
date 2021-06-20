@@ -27,14 +27,8 @@ if(isset($_POST["categoryhome"])){
             $query = mysqli_query($con,$sql);
             $row = mysqli_fetch_array($query);
             $count=$row["count_items"];
-            
-            
-            
 			echo "
-					
-                    
-                               <li class='categoryhome' cid='$cid'><a href='store.php'>$cat_name</a></li>
-                    
+                <li class='categoryhome' cid='$cid'><a href='store.php'>$cat_name</a></li>    
 			";
 		}
         
